@@ -1,0 +1,3 @@
+# Load all config files
+run 'for config in $DOTFILES/tmux/*.conf; do tmux source-file $config; done'
+
