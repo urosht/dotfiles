@@ -9,7 +9,13 @@ OS=$NAME
 
 echo -e "\nOS: $OS"
 
+# Link neofetch config
+source $DOTFILES/scripts/neofetch.sh
+
 # Link dotfiles
 source $DOTFILES/scripts/links.sh
+source $DOTFILES/scripts/zsh.sh
+source $DOTFILES/scripts/tmux.sh
+
 
 echo -e "\nDone"
