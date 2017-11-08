@@ -8,7 +8,7 @@ alias grep='grep --color=auto'
 
 # Tmux
 alias ta='tmux new-session -A -s'
-alias t='ta main'
+alias t='tmux'
 
 # Docker
 alias d="docker"
