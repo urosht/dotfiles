@@ -19,7 +19,7 @@ left_prompt() {
 
 # If connected through ssh
   if [[ -n $SSH_CONNECTION ]]; then
-    PROMPT+="@%F{$color_host}$(hostname)%f "
+    PROMPT+="%F{$color_default}@%F{$color_host}$(hostname)%f "
   fi
 
   PROMPT+="%F{$color_default}❯%f "
