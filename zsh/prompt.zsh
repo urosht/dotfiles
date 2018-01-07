@@ -1,6 +1,5 @@
 setopt prompt_subst
 
-
 precmd () {
 
     left_prompt
@@ -34,3 +33,7 @@ right_prompt() {
 
 }
 
+# Other prompt ideas
+# У - U+0423
+# RCHP * - U+2731
+# -> - U+2794
