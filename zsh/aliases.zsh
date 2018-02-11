@@ -18,6 +18,10 @@ alias dm="docker-machine"
 alias reboot_docker="dc stop && dc build --no-cache && dc up -d"
 alias dt="docker logs -f --tail"
 
+# Kubernetes
+alias k="kubectl"
+alias m="minikube"
+
 # Git
 alias g="git"
 alias ga="git add"

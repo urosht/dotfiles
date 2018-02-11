@@ -9,6 +9,15 @@ OS=$NAME
 
 echo -e "\nOS: $OS"
 
+# Depending on OS, install packages
+if [[ "$OS" =~ "Arch" ]]; then
+  source $DOTFILES/scripts/arch-setup.sh
+elif [[ "$OS" =~ "Ubuntu" ]]; then
+  source $DOTFILES/scripts/ubuntu-setup.sh
+else
+  echo "\nOS not Arch or Ubuntu, you will have to install packages manually"
+fi
+
 # Link neofetch config
 source $DOTFILES/scripts/neofetch.sh
 

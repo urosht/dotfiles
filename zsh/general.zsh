@@ -7,15 +7,9 @@ setopt multios             # Allows redirecting output to multiple files
 setopt correct             # Prompt misspelled command correction
 setopt interactivecomments # Allow comments in the shell
 
-
-# Enable completion
-autoload -Uz compinit && compinit
-
-# Enable completion menu selection
-zstyle ':completion:*' menu select
-
-# Bind SHIFT + TAB for previous selection
-bindkey '^[[Z' reverse-menu-complete
+# Use CTRL + arrow keys to jump one word, like in bash
+bindkey '^[[1;5C' forward-word
+bindkey '^[[1;5D' backward-word
 
 # Use arrow keys to search history matching the current buffer
 autoload -U history-search-end
