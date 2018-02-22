@@ -1,9 +1,9 @@
-#!/usr/bin/env zsh
 
 # Enable Kubernetes completion
 if [ $commands[kubectl] ]; then
   source <(kubectl completion zsh)
 fi
+
 
 # Enable completion
 autoload -Uz compinit && compinit
