@@ -27,3 +27,6 @@ alias watch="watch " # So you can do use watch with alias k :)
 alias g="git"
 alias ga="git add"
 alias gc="git commit"
+
+# Maven
+alias mci="mvn clean install"
