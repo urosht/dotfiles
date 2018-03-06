@@ -21,6 +21,7 @@ alias dt="docker logs -f --tail"
 # Kubernetes
 alias k="kubectl"
 alias m="minikube"
+alias watch="watch " # So you can do use watch with alias k :)
 
 # Git
 alias g="git"
