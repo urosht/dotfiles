@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+# conduit path
+export PATH=$PATH:$HOME/.conduit/bin
