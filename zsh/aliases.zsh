@@ -30,3 +30,10 @@ alias gc="git commit"
 
 # Maven
 alias mci="mvn clean install"
+
+# Functions
+
+# make dir and cd into it
+mkcd () {
+  mkdir -p -- "$1" && cd -P -- "$1";
+}

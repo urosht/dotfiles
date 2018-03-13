@@ -15,7 +15,7 @@ if [[ "$OS" =~ "Arch" ]]; then
 elif [[ "$OS" =~ "Ubuntu" ]]; then
   source $DOTFILES/scripts/ubuntu-setup.sh
 else
-  echo "\nOS not Arch or Ubuntu, you will have to install packages manually"
+  echo "\nOS not Arch nor Ubuntu, you will have to install packages manually"
 fi
 
 # Link neofetch config
