@@ -34,3 +34,5 @@ alias gc='git commit'
 # Maven
 alias mci='mvn clean install'
 
+# Vim
+alias vim='nvim'
