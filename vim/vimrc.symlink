@@ -1,4 +1,10 @@
+" Plugins
+source $DOTFILES/vim/plugins.vim
 
 " Vim configuration
 source $DOTFILES/vim/general.vim
 source $DOTFILES/vim/iabbrev.vim
+
+" Source plugin config last
+source $DOTFILES/vim/plugins/config.vim
+
