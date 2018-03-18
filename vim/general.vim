@@ -1,5 +1,5 @@
 " --  Vim Config
-set encoding=utf8 " Set encoding
+set encoding=UTF-8 " Set encoding
 set ic " Set case-insensitive search
 set number " Line numbers
 set wrap " Word wrap
