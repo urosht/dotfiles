@@ -13,7 +13,7 @@ else
 fi
 
 # Link neovim config
-echo -en "\\Linking neovim config... "
+echo -en "\nLinking neovim config... "
 if  [ -e "$HOME/.config/nvim/init.vim" ]; then
     echo "Already exists"
 else 
@@ -23,7 +23,7 @@ else
    fi
    # Symlink config file 
    ln -s "$DOTFILES/vim/init.vim" "$HOME/.config/nvim/init.vim"
-   echo -en "\\n"
+   echo -en "\n"
 fi
 
 
