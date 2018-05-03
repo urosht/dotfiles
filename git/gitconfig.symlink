@@ -9,5 +9,5 @@
   username = raidenovski
 [diff]
   tool = vimdiff
-[merge]
-  tool = vimdiff
+[difftool]
+  prompt = false
