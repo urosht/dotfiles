@@ -1,12 +1,12 @@
 # Filesystem
 alias ls='ls --color=auto'
-alias ll='ls -l'
-alias la='ls -la'
+alias ll='ls -lh'
+alias la='ls -lah'
 alias e='exit'
 alias mkcd='mkcd(){ mkdir -p "$1" && cd "$1" }'
 
 # Network
-myip='curl http://ipecho.net/plain; echo'
+alias myip='curl http://ipecho.net/plain; echo'
 # Grep
 alias grep='grep --color=auto'
 
@@ -24,7 +24,7 @@ alias dt='docker logs -f --tail'
 # Kubernetes
 alias k='kubectl'
 alias m='minikube'
-alias watch='watch ' # So you can do use watch with alias k :)
+alias watch='watch ' # So you can use watch with k8s :)
 
 # Git
 alias g='git'
