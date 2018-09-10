@@ -7,7 +7,7 @@ source ./zsh/zshenv.symlink
 source /etc/os-release
 OS=$NAME
 
-echo -e "\nOS: $OS"
+echo -e "\n=== OS: $OS ==="
 
 # Depending on OS, install packages
 if [[ "$OS" =~ "Arch" ]]; then
@@ -26,6 +26,5 @@ source $DOTFILES/scripts/links.sh
 source $DOTFILES/scripts/zsh.sh
 source $DOTFILES/scripts/tmux.sh
 source $DOTFILES/scripts/vim.sh
-
 
 echo -e "\nDone"
