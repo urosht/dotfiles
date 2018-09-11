@@ -6,7 +6,7 @@
 [credential]
   username = raidenovski
   helper = store
-  helper = cache --timeout = 3600
+  helper = cache
 [core]
   editor = nvim
 [diff]
