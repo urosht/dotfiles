@@ -15,5 +15,6 @@
   prompt = false
 [alias]
   l = log --oneline
+  ll = log --graph --oneline --all --decorate
   s = status --short
   ss = status
