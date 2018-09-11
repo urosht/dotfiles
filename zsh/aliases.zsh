@@ -34,6 +34,8 @@ alias g='git'
 alias ga='git add'
 alias gc='git commit'
 
+alias jqp='jq -R -r ". as $line | try fromjson catch $line"'
+
 # Maven
 alias mci='mvn clean install'
 
