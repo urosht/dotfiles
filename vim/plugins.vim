@@ -12,5 +12,7 @@ Plug 'gmarik/ingretu'
 Plug 'w0rp/ale'
 " Snippets for neovim
 Plug 'Shougo/deoplete.nvim', { 'do' : ':UpdateRemotePlugins' }
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
 
 call plug#end()

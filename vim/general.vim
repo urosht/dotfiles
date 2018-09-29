@@ -19,6 +19,7 @@ colorscheme ingretu
 set expandtab
 set autoindent
 set smartindent
+set list
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
