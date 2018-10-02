@@ -2,7 +2,8 @@
 scriptencoding utf-8
 
 " Use spaces instead of tabs
-set expandtab
+set noexpandtab
+
 
 " Auto indent
 set autoindent
@@ -14,6 +15,5 @@ set listchars=tab:\ ,trail:·"
 
 " Intentation
 set tabstop=2
-set softtabstop=2
+"set softtabstop=2
 set shiftwidth=2
-silent! IndentLinesEnable
