@@ -10,9 +10,7 @@ Plug 'ryanoasis/vim-devicons',  { 'on': 'NERDTreeToggle' }
 Plug 'gmarik/ingretu'
 " Neovim linting engine
 Plug 'w0rp/ale'
-" Snippets for neovim
-Plug 'Shougo/deoplete.nvim', { 'do' : ':UpdateRemotePlugins' }
-Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnippet-snippets'
+" Snippets
+Plug 'SiVer/ultisnips'
 
 call plug#end()

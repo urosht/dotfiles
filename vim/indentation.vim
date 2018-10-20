@@ -2,7 +2,7 @@
 scriptencoding utf-8
 
 " Use spaces instead of tabs
-set expandtab
+set noexpandtab
 
 " Auto indent
 set autoindent
