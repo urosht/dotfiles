@@ -11,6 +11,8 @@ Plug 'gmarik/ingretu'
 " Neovim linting engine
 Plug 'w0rp/ale'
 " Snippets
-Plug 'SiVer/ultisnips'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
 
 call plug#end()
