@@ -4,8 +4,12 @@ set -e
 source ./zsh/zshenv.symlink
 
 # Check OS
-source /etc/os-release
-OS=$NAME
+if [ "$(uname)" == "Darwin" ]; then
+  OS="OSX"
+else
+  source /etc/os-release
+  OS=$NAME
+fi
 
 echo -e "\n=== OS: $OS ==="
 

@@ -9,6 +9,7 @@
   helper = cache
 [core]
   editor = nvim
+  excludesfile = ~/.gitignore_global
 [diff]
   tool = vimdiff
 [difftool]
@@ -18,3 +19,4 @@
   ll = log --graph --date=relative --all --decorate
   s = status --short
   ss = status
+

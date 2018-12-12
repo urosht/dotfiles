@@ -1,6 +1,5 @@
 # Filesystem
-alias ls='ls --color=auto'
-alias ll='ls -lh'
+alias ll='ls -G'
 alias la='ls -lah'
 alias e='exit'
 alias mkcd='mkcd(){ mkdir -p "$1" && cd "$1" }'
