@@ -7,6 +7,8 @@
   username = raidenovski
   helper = store
   helper = cache
+[includeIf "gitdir:~/code/adidas/"]
+  path = ~/code/adidas/git/.gitconfig
 [core]
   editor = nvim
   excludesfile = ~/.gitignore_global
