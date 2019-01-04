@@ -29,6 +29,7 @@ source $DOTFILES/scripts/neofetch.sh
 source $DOTFILES/scripts/links.sh
 source $DOTFILES/scripts/zsh.sh
 source $DOTFILES/scripts/tmux.sh
+source $DOTFILES/scripts/java.sh
 source $DOTFILES/scripts/vim.sh
 
 echo -e "\nDone"
