@@ -17,7 +17,7 @@ zsh -c "source $DOTFILES/zsh/zshrc.symlink"
 
 
 # Set zsh as the default shell
-if [ "$SHELL" != "$(which zsh)" ]; then
+if [ "$SHELL" != /bin/zsh ]; then
     echo -e "\nSetting zsh as the default shell..."
-    chsh -s $(which zsh)
+    chsh -s /bin/zsh
 fi
