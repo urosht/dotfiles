@@ -3,11 +3,12 @@
   email = nediarovic@gmail.com
 [github]
   user = raidenovski
+[bitbucket]
+	user = trifuuro
 [credential]
-  username = raidenovski
   helper = store
   helper = cache
-[includeIf "gitdir:~/code/adidas/"]
+[includeIf "gitdir:~/code/adidas/git/"]
   path = ~/code/adidas/git/.gitconfig
 [core]
   editor = nvim
@@ -21,4 +22,3 @@
   ll = log --graph --date=relative --all --decorate
   s = status --short
   ss = status
-
