@@ -6,7 +6,8 @@ fi
 
 
 # Enable completion
-autoload -Uz compinit && compinit
+autoload -Uz compinit
+compinit
 
 # Enable completion menu selection
 zstyle ':completion:*' menu select
