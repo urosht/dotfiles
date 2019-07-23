@@ -3,7 +3,7 @@ alias ls='ls -G'
 alias ll='ls -l'
 alias la='ls -lah'
 alias e='exit'
-alias mkcd='mkcd(){ mkdir -p "$1" && cd "$1" }'
+#alias mkcd="mkcd(){ mkdir -p $1 && cd $1 }"
 
 # Network
 alias myip='curl http://ipecho.net/plain; echo'
@@ -35,7 +35,7 @@ alias g='git'
 alias ga='git add'
 alias gc='git commit'
 
-alias jqp='jq -R -r ". as $line | try fromjson catch $line"'
+#alias jqp=`jq -R -r ". as $line | try fromjson catch $line"`
 
 # Maven
 alias mci='mvn clean install'
