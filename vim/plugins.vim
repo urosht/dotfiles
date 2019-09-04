@@ -1,4 +1,4 @@
-" Plug-in
+" Plugins
 
 call plug#begin('~/.vim/plugged')
 
@@ -10,5 +10,8 @@ Plug 'ryanoasis/vim-devicons',  { 'on': 'NERDTreeToggle' }
 Plug 'gmarik/ingretu'
 " Neovim linting engine
 Plug 'w0rp/ale'
+" Snippets
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/neosnippet.vim'
 
 call plug#end()
