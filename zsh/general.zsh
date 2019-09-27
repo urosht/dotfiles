@@ -20,5 +20,9 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey '\e[A' history-beginning-search-backward-end
 bindkey '\e[B' history-beginning-search-forward-end
 
+# Edit line in vim with ctrl-e:
+autoload edit-command-line; zle -N edit-command-line
+bindkey '^E' edit-command-line
+
 # OSX
 CLICOLOR=1

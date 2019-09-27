@@ -1,4 +1,4 @@
-#Deployment
+# Deployment
 snippet Deployment
 alias deploy
 	---
@@ -28,7 +28,7 @@ alias deploy
 					- name: ENV
 						value: "demo"
 
-#Service
+# Service
 snippet Service
 alias svc
 	---
@@ -44,3 +44,26 @@ alias svc
 		app: ${4:$1}
 	ports:
 		port: ${5:8080}
+
+# Ingress
+snippet Ingress
+alias ing
+	---
+	apiVersion: extensions/v1beta1
+	kind: Ingress
+	metadata:
+		name: ${1:demo}
+	spec:
+		rules:
+			- host: ${2:demo.cms.05ri3.k8s.asgard.dub.aws.k8s.3stripes.net}
+				http:
+					paths:
+						- path: /
+							backend:
+								serviceName: ${3:$1}
+								servicePort: ${4:8080}
+		tls:
+				-
+					hosts:
+						- ${5:$2}
+					secretName: https-tls-secret

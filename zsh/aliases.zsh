@@ -5,7 +5,7 @@ alias la='ls -lah'
 alias e='exit'
 
 # Network
-alias myip='curl http://ipecho.net/plain; echo'
+alias myip='curl ifconfig.io'
 
 # Grep
 alias grep='grep --color=auto'

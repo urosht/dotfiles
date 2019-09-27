@@ -32,8 +32,3 @@ right_prompt() {
     RPROMPT='%F{$color_default}%~'
 
 }
-
-# Other prompt ideas
-# У - U+0423
-# RCHP * - U+2731
-# -> - U+2794
