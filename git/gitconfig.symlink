@@ -2,9 +2,9 @@
   name = Urosh Trifunovic
   email = nediarovic@gmail.com
 [github]
-  user = raidenovski
+  user = urosht
 [credential]
-  username = raidenovski
+  username = urosht
   helper = store
   helper = cache
 [core]
