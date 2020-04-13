@@ -26,8 +26,8 @@ alias k='kubectl'
 alias m='minikube'
 alias watch='watch ' # So you can use watch with k8s :)
 alias ksd='kubectl run -it --rm --restart=Never busybox --image=busybox sh'
-alias ksc='kubectl config get-contexts'
-alias ksu='kubectl config use-context'
+alias kcg='kubectl config get-contexts'
+alias kcu='kubectl config use-context'
 
 # Git
 alias g='git'

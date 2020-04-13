@@ -12,11 +12,8 @@ sudo apt -y install \
   neovim \
   zsh \
   jq \
-  openjdk-8-jdk  
-  
-echo -e "\\nInstalling snap packages..."
-snap install \
-  yq
+  openjdk-8-jdk \
+  maven
 
 echo -e "\\nAdding neofetch repository..."
 sudo add-apt-repository -y ppa:dawidd0811/neofetch

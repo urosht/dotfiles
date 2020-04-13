@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
 
-# conduit path
-export PATH=$PATH:$HOME/.conduit/bin
+# go path
+#export PATH=$PATH:$PATH:/usr/local/go/bin
+#export GOPATH=$HOME/go
