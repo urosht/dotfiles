@@ -1,6 +1,6 @@
 " Plugins
 
-call plug#begin('~/.vim/plugged')
+silent! if plug#begin('~/.vim/plugged')
 
 " Nerdtree
 Plug 'scrooloose/nerdtree',  { 'on': 'NERDTreeToggle' }
@@ -15,3 +15,5 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neosnippet.vim'
 
 call plug#end()
+
+endif
