@@ -20,5 +20,4 @@ if has('conceal')
   set conceallevel=2 concealcursor=niv
 endif
 
-let g:neosnippet#disable_runtime_snippets
 let g:neosnippet#snippets_directory='~/dotfiles/vim/snippets'

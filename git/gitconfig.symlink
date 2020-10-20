@@ -23,3 +23,5 @@
   ll = log --graph --date=relative --all --decorate
   s = status --short
   ss = status
+[pull]
+	rebase = false
