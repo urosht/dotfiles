@@ -11,6 +11,7 @@ alias myip='curl ifconfig.io'
 alias grep='grep --color=auto'
 
 # cat
+alias ccat='cat'
 alias cat='bat'
 
 # Tmux
@@ -31,7 +32,7 @@ alias tf='terraform'
 alias k='kubectl'
 alias m='minikube'
 alias watch='watch ' # So you can use watch with k8s :)
-alias kdebug='kubectl run -it --rm --restart=Never busybox --image=busybox sh'
+alias kdebug='kubectl run -it --rm --tty --restart=Never busybox-debug --image=radial/busyboxplus:curl -- /bin/ sh'
 alias kcg='kubectl config get-contexts'
 alias kcu='kubectl config use-context'
 
