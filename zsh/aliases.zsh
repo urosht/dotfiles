@@ -18,12 +18,12 @@ alias cat='bat'
 alias ta='tmux new-session -A -s'
 alias t='tmux'
 
-# Docker
-alias d='docker'
+# Nerdctl / Docker
+alias d='nerdctl'
 alias dc='docker-compose'
 alias dm='docker-machine'
 alias reboot_docker='dc stop && dc build --no-cache && dc up -d'
-alias dt='docker logs -f --tail'
+alias dt='nerdctl logs -f --tail'
 
 # Terraform
 alias tf='terraform'
