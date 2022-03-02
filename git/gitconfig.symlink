@@ -25,3 +25,5 @@
   ss = status
 [pull]
 	rebase = false
+[http]
+	postBuffer = 524288000

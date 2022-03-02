@@ -2,7 +2,7 @@
 
 set -e
 
-echo -e "\\n=== Running Arch setup ==="
+echo -e "\\n=== Running OSX setup ==="
 
 echo -e "\\n=== Installing Homebrew packages ==="
 brew install pip3 \
