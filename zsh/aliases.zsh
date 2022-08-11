@@ -10,10 +10,6 @@ alias myip='curl ifconfig.io'
 # Grep
 alias grep='grep --color=auto'
 
-# cat
-alias ccat='cat'
-alias cat='bat'
-
 # Tmux
 alias ta='tmux new-session -A -s'
 alias t='tmux'
