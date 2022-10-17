@@ -38,6 +38,7 @@ python3 -m pip install --user --upgrade pynvim
     - GitLense
     - Vim emulation
 - IntelliJ IDEA (for enabling CLI launcher, Open IntelliJ -> Tools -> Create Command-Line Launcher)
+- Since we are installing mvn via homebrew, it will automatically install latest JDK. In case we don't want Maven to use the latest JDK, we need to edit it here: `/usr/local/Cellar/maven/3.8.6/bin/mvn`. Details can be found in this article -> https://euedofia.medium.com/fix-default-java-version-on-maven-on-mac-os-x-156cf5930078
 
 # Common issues
 ## homebrew Error: Failed to link all completions, docs and manpages

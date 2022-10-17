@@ -29,7 +29,10 @@ brew install \
 	watch \
 	yarn \
 	nvm \
-	maven
+	maven \
+	groovysdk \
+	postman \
+	k9s
 
 
 echo -e "\\n=== Installing Mononoki Nerd Font via Homebrew ==="
