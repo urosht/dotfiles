@@ -14,12 +14,9 @@ alias grep='grep --color=auto'
 alias ta='tmux new-session -A -s'
 alias t='tmux'
 
-# Nerdctl / Docker
-alias d='nerdctl'
-alias dc='docker-compose'
-alias dm='docker-machine'
-alias reboot_docker='dc stop && dc build --no-cache && dc up -d'
-alias dt='nerdctl logs -f --tail'
+# Docker
+alias d='docker'
+alias dt='docker logs -f --tail'
 
 # Terraform
 alias tf='terraform'

@@ -32,7 +32,8 @@ brew install \
 	maven \
 	groovysdk \
 	postman \
-	k9s
+	k9s \
+	colima
 
 
 echo -e "\\n=== Installing Mononoki Nerd Font via Homebrew ==="
