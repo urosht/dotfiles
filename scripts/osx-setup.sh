@@ -10,13 +10,12 @@ echo -e "\\n=== Installing Homebrew packages ==="
 brew install \
 	jq \
 	kubectl \
-	kubectl \
 	helm \
 	tfenv \
 	htop \
 	neovim \
 	tmux \
-	openjdk@11 \
+	openjdk@17 \
 	iterm2 \
 	neofetch \
 	python@3.10 \
@@ -33,6 +32,7 @@ brew install \
 	groovysdk \
 	postman \
 	k9s \
+	docker \
 	colima
 
 
