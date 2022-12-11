@@ -33,11 +33,16 @@ brew install \
 	postman \
 	k9s \
 	docker \
-	colima
+	colima \
+	tldr \
+
 
 
 echo -e "\\n=== Installing Mononoki Nerd Font via Homebrew ==="
 brew tap homebrew/cask-fonts && brew install --cask font-mononoki-nerd-font
 
-echo -e "\n=== Symlinking Java 11 Homebrew installation ==="
-sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+echo -e "\\n=== Installing how2 ==="
+brew tap how2terminal/how2 && brew install how2
+
+echo -e "\n=== Symlinking Java 17 Homebrew installation ==="
+sudo ln -sfn $(brew --prefix)/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk

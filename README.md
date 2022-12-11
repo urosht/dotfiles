@@ -54,3 +54,4 @@ sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
 - Add git information to zsh
 - Zoom panes in tmux
 - Resize panes in tmux
+- Update Java version to 17 in the scripts
