@@ -2,14 +2,12 @@
 
 source $HOME/.zsh/antigen/antigen.zsh
 
-
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen apply
 
 # --- Config ---
-
 
 # Autosuggest
 bindkey '^ '   autosuggest-accept  # Bind CTRL + Space to accept the curretn suggestion

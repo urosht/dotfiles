@@ -1,9 +1,9 @@
-" Plug-in
+" Plugins
 
-call plug#begin('~/.vim/plugged')
+silent! if plug#begin('~/.vim/plugged')
 
 " Nerdtree
-Plug 'scrooloose/nerdtree',	{ 'on': 'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree',  { 'on': 'NERDTreeToggle' }
 " Vim icons
 Plug 'ryanoasis/vim-devicons',  { 'on': 'NERDTreeToggle' }
 " Colorscheme
@@ -16,3 +16,5 @@ Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
 
 call plug#end()
+
+endif

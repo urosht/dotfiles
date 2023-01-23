@@ -28,13 +28,3 @@ uptime_shorthand="tiny"
 
 # Short CPU speed
 speed_shorthand="on"
-
-# Show all disks
-disk_show=($(lsblk -o MOUNTPOINT -x MOUNTPOINT))
-
-
-
-# Load OS name
-for file in /etc/*-release; do
-    source $file
-done

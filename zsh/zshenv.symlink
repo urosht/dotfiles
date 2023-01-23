@@ -5,3 +5,6 @@ export KEYTIMEOUT=1 # Remove delay on ESC
 
 export VISUAL=vim
 export EDITOR=$VISUAL
+
+# OSX
+export LC_ALL=en_US.UTF-8

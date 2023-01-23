@@ -3,12 +3,17 @@
   email = nediarovic@gmail.com
 [github]
   user = urosht
+	username = urosht
+[bitbucket]
+	user = trifuuro
 [credential]
-  username = urosht
   helper = store
   helper = cache
+[includeIf "gitdir:~/code/adidas/"]
+  path = ~/code/adidas/.gitconfig
 [core]
   editor = nvim
+  excludesfile = ~/.gitignore_global
 [diff]
   tool = vimdiff
 [difftool]
@@ -18,3 +23,7 @@
   ll = log --graph --date=relative --all --decorate
   s = status --short
   ss = status
+[pull]
+	rebase = false
+[http]
+	postBuffer = 524288000
