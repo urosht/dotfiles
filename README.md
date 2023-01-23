@@ -47,6 +47,18 @@ Run `brew doctor` and follow the advice to link the docs. Usually, it will be
 sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
 ```
 
+## Python provider error in neovim
+Usually happens when python3 executable cannot be found by neovim. Make sure you have pynvim installed:
+```bash
+pip3 install pynvim
+```
+Then update plugins in vim:
+```vi
+:UpdateRemotePlugins
+```
+
+
+
 
 ## TODO
 - Add AWS profile to statusline
