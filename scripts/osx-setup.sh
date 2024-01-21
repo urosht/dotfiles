@@ -35,6 +35,7 @@ brew install \
 	docker \
 	colima \
 	tldr \
+	golang \
 
 
 
