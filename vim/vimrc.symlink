@@ -9,3 +9,6 @@ source $DOTFILES/vim/iabbrev.vim
 " Source plugin config last
 source $DOTFILES/vim/plugins/config.vim
 
+" Link to root vimrc
+ln -s $HOME/.vimrc /.vimrc
+

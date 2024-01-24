@@ -13,4 +13,3 @@ set guicursor= " Don't change cursor
 syntax enable " Enable syntax highlightning
 set nocompatible " Not compatible with Vi
 let mapleader="," " set , as <leader>
-colorscheme ingretu

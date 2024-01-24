@@ -17,4 +17,6 @@ Plug 'Shougo/neosnippet-snippets'
 
 call plug#end()
 
+colorscheme ingretu
+
 endif
