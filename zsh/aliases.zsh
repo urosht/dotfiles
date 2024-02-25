@@ -17,6 +17,7 @@ alias t='tmux'
 # Docker
 alias d='docker'
 alias dt='docker logs -f --tail'
+alias dc='docker-compose'
 
 # Terraform
 alias tf='terraform'
