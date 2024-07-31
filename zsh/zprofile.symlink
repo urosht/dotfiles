@@ -2,3 +2,4 @@
 
 # go path
 export PATH=$PATH:$(go env GOPATH)/bin
+export PATH="/Users/trifuuro/.nvm/versions/node/v16.16.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/iTerm.app/Contents/Resources/utilities:/Users/trifuuro/go/bin:/Users/trifuuro/.antigen/bundles/zsh-users/zsh-autosuggestions:/Users/trifuuro/.antigen/bundles/zsh-users/zsh-syntax-highlighting:/Users/trifuuro/.vector/bin"
