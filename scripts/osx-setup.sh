@@ -15,16 +15,13 @@ brew install \
 	htop \
 	neovim \
 	tmux \
-	openjdk@17 \
-	iterm2 \
+	openjdk@21 \
 	neofetch \
-	python@3.10 \
-	authy \
+	python@3.14 \
 	reattach-to-user-namespace \
 	caffeine \
 	dbeaver-community \
 	awscli \
-	Azure/kubelogin/kubelogin \
 	watch \
 	yarn \
 	nvm \
@@ -36,7 +33,17 @@ brew install \
 	colima \
 	tldr \
 	golang \
+	pipx \
 
+brew install --cask \
+	visual-studio-code \
+	claude \
+	cursor \
+	brave-browser \
+	todoist-app \
+	notion \
+	rescuetime \
+	claude-code \
 
 
 echo -e "\\n=== Installing Mononoki Nerd Font via Homebrew ==="
@@ -45,5 +52,15 @@ brew tap homebrew/cask-fonts && brew install --cask font-mononoki-nerd-font
 echo -e "\\n=== Installing how2 ==="
 brew tap how2terminal/how2 && brew install how2
 
-echo -e "\n=== Symlinking Java 17 Homebrew installation ==="
-sudo ln -sfn $(brew --prefix)/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
+echo -e "\n=== Symlinking Java 21 Homebrew installation ==="
+sudo ln -sfn $(brew --prefix)/opt/openjdk@21/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-21.jdk
+
+echo -e "\\n=== Setting up CLAUDE ==="
+mkdir -p "$HOME/.claude"
+if [ -f "$DOTFILES/claude/CLAUDE.md" ]; then
+	echo "Copying CLAUDE.md to home directory..."
+	cp "$DOTFILES/claude/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
+	echo "CLAUDE.md successfully installed."
+else
+	echo "Warning: CLAUDE.md not found in dotfiles repository."
+fi

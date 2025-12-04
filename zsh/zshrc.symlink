@@ -6,5 +6,3 @@ for config ($DOTFILES/zsh/**/*.zsh) source $config
 
 # Run startup script
 source $DOTFILES/zsh/startup.sh
-
-eval $(thefuck --alias)

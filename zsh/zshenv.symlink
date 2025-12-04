@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 
+# Core system variables
 export DOTFILES=$HOME/dotfiles
 export KEYTIMEOUT=1 # Remove delay on ESC
 
@@ -8,3 +9,9 @@ export EDITOR=$VISUAL
 
 # OSX
 export LC_ALL=en_US.UTF-8
+
+# Claude Code & AWS
+export CLAUDE_CODE_USE_BEDROCK=1
+export AWS_PROFILE=claude_code
+export AWS_REGION=us-west-2
+export ANTHROPIC_MODEL=us.anthropic.claude-sonnet-4-5-20250929-v1:0
