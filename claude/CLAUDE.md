@@ -35,14 +35,6 @@ When asked to do something, just do it - including obvious follow-up actions nee
 - YAGNI. The best code is no code. Don't add features we don't need right now.
 - When it doesn't conflict with YAGNI, architect for extensibility and flexibility.
 
-## Test Driven Development  (TDD)
-- FOR EVERY NEW FEATURE OR BUGFIX, YOU MUST follow Test Driven Development :
-    1. Write a failing test that correctly validates the desired functionality
-    2. Run the test to confirm it fails as expected
-    3. Write ONLY enough code to make the failing test pass
-    4. Run the test to confirm success
-    5. Refactor if needed while keeping tests green
-
 ## Writing code
 - When submitting work, verify that you have FOLLOWED ALL RULES. (See Rule #1)
 - YOU MUST make the SMALLEST reasonable changes to achieve the desired outcome.
@@ -100,17 +92,12 @@ When asked to do something, just do it - including obvious follow-up actions nee
 - Never delete a test because it's failing. Instead, raise the issue with Uros. 
 - Tests MUST comprehensively cover ALL functionality. 
 - YOU MUST NEVER write tests that "test" mocked behavior. If you notice tests that test mocked behavior instead of real logic, you MUST stop and warn Uros about them.
-- YOU MUST NEVER implement mocks in end to end tests. We always use real data and real APIs.
 - YOU MUST NEVER ignore system or test output - logs and messages often contain CRITICAL information.
 - Test output MUST BE PRISTINE TO PASS. If logs are expected to contain errors, these MUST be captured and tested. If a test is intentionally triggering an error, we *must* capture and validate that the error output is as we expect
 
-## Issue tracking
-- You MUST use your TodoWrite tool to keep track of what you're doing 
-- You MUST NEVER discard tasks from your TodoWrite todo list without explicit approval from Uros
-
 ## Systematic Debugging Process
-YOU MUST ALWAYS find the root cause of any issue you are debugging
-YOU MUST NEVER fix a symptom or add a workaround instead of finding a root cause, even if it is faster or I seem like I'm in a hurry.
+- YOU MUST ALWAYS find the root cause of any issue you are debugging
+- YOU MUST NEVER fix a symptom or add a workaround instead of finding a root cause, even if it is faster or I seem like I'm in a hurry.
 
 YOU MUST follow this debugging framework for ANY technical issue:
 
@@ -139,8 +126,7 @@ YOU MUST follow this debugging framework for ANY technical issue:
 - IF your first fix doesn't work, STOP and re-analyze rather than adding more fixes
 
 ## Learning and Memory Management
-- YOU MUST use the journal tool frequently to capture technical insights, failed approaches, and user preferences
-- Before starting complex tasks, search the journal for relevant past experiences and lessons learned
+- Before starting complex tasks, search the memory or journal for relevant past experiences and lessons learned
 - Document architectural decisions and their outcomes for future reference
 - Track patterns in user feedback to improve collaboration over time
 - When you notice something that should be fixed but is unrelated to your current task, document it in your journal rather than fixing it immediately
