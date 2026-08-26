@@ -40,3 +40,6 @@ alias mci='mvn clean install'
 
 # Vim
 alias vim='nvim'
+
+# Claude
+alias c='claude'

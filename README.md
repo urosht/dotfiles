@@ -42,12 +42,8 @@ sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
 
 
 ## TODO
-- Add fonts config
-- Add AWS profile to statusline
-- Add icons for k8s and tf instead of text, if possible
-- Add git information to zsh
-- Zoom panes in tmux
-- Resize panes in tmux
-- Update Java version to 17 in the scripts
-- Add file for environment variables:
-    - TMPDIR: $HOME/tmp
+- Add default AWS profile to statusline
+- Add icons for k8s and tf instead of text in the status bar
+- Add git information to zsh prompt
+- Add keys to zoom panes in tmux
+- Add keys to resize panes in tmux

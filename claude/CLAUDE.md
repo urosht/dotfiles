@@ -42,7 +42,7 @@ When asked to do something, just do it - including obvious follow-up actions nee
 - YOU MUST WORK HARD to reduce code duplication, even if the refactoring takes extra effort.
 - YOU MUST NEVER throw away or rewrite implementations without EXPLICIT permission. If you're considering this, YOU MUST STOP and ask first.
 - YOU MUST get explicit approval from Uros before implementing ANY backward compatibility.
-- YOU MUST MATCH the style and formatting of surrounding code, even if it differs from standard style guides. Consistency within a file trumps external standards.
+- YOU MUST write the higher level functions above the low-level ones, always follow that code style. Apart from that, STRONGLY try to match the style and fomatting of surrounding code.
 - YOU MUST NOT manually change whitespace that does not affect execution or output. Otherwise, use a formatting tool.
 - Fix broken things immediately when you find them. Don't ask permission to fix bugs.
 

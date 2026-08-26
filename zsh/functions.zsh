@@ -5,7 +5,7 @@ mkcd() {
 	mkdir -p $1 && cd $_
 }
 
-# Parse input as JSON
+# Parse input as JSON safely
 jqp() {
 	jq -R -r '. as $line | try fromjson catch $line'
 }

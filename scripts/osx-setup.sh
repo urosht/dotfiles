@@ -24,7 +24,6 @@ brew install \
 	awscli \
 	watch \
 	yarn \
-	nvm \
 	maven \
 	groovysdk \
 	postman \
@@ -34,6 +33,7 @@ brew install \
 	tldr \
 	golang \
 	pipx \
+	libpq \
 
 brew install --cask \
 	visual-studio-code \
@@ -47,9 +47,10 @@ brew install --cask \
 
 
 echo -e "\\n=== Installing Mononoki Nerd Font via Homebrew ==="
-brew tap homebrew/cask-fonts && brew install --cask font-mononoki-nerd-font
+brew install --cask font-mononoki-nerd-font
 
 echo -e "\\n=== Installing how2 ==="
+brew trust how2terminal/how2
 brew tap how2terminal/how2 && brew install how2
 
 echo -e "\n=== Symlinking Java 21 Homebrew installation ==="

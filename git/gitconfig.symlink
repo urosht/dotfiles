@@ -2,6 +2,7 @@
   name = Urosh Trifunovic
   email = nediarovic@gmail.com
   signingKey = ~/.ssh/personal_github
+  AddKeysToAgent = yes
 [github]
   user = urosht
 	username = urosht

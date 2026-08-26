@@ -1,6 +1,13 @@
 " NERDTree config
 scriptencoding utf-8
 
+" air-line
+let g:airline_powerline_fonts = 1
+
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
 let g:NERDTreeMapActivateNode     = '<Space>' " Open / close directorties and files with space
 let g:NERDTreeQuitOnOpen          = 1         " Close NERDTree when opening a file
 let g:NERDTreeDirArrowExpandable  = ''       " Custom collapsed icon
