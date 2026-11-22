@@ -37,7 +37,9 @@ pamac install --no-confirm \
 	docker-compose \
 	docker-buildx \
 	postgresql-libs \
-	dbeaver
+	dbeaver \
+	vlc \
+	vlc-plugin-ffmpeg
 
 # --- AUR ---
 echo -e "\n=== Building AUR packages ==="
