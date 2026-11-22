@@ -1,45 +1,25 @@
 # dotfiles
-Them dotfiles
+**Manjaro (KDE / Wayland)** branch.
+
+Each OS lives on its own branch:
+- `manjaro` — this branch
+- `osx` — macOS (Homebrew)
 
 # Getting Started
-1. Install [Homebrew](https://docs.brew.sh)
+1. Download this repo and check out the Manjaro branch
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+git clone -b manjaro https://github.com/urosht/dotfiles.git ~/dotfiles
 ```
 
-2. Download this repo
+2. Run the setup
 ```bash
-git clone https://github.com/urosht/dotfiles.git
+cd ~/dotfiles && ./setup.sh
 ```
+Packages are installed with `pamac` (official repos + AUR). The script enables AUR support in
+`/etc/pamac.conf` and enables Docker. Log out and back in afterwards
+so the docker group and default shell take effect.
 
-3. Run the setup
-```bash
-cd dotifles && ./setup.sh
-```
-
-4. install pynvim
-```bash
-pipx install pynvim
-```
-
-## Other things to install manually
-- Todoist
-- Inkdrop
-- RescueTime
-- Visual Studio Code
-    - GitLense
-    - Vim emulation
-    - Go
-- IntelliJ IDEA (for enabling CLI launcher, Open IntelliJ -> Tools -> Create Command-Line Launcher)
-- Since we are installing mvn via homebrew, it will automatically install latest JDK. In case we don't want Maven to use the latest JDK, we need to edit it here: `/usr/local/Cellar/maven/3.8.6/bin/mvn`. Details can be found in this article -> https://euedofia.medium.com/fix-default-java-version-on-maven-on-mac-os-x-156cf5930078
-
-# Common issues
-## homebrew Error: Failed to link all completions, docs and manpages
-Run `brew doctor` and follow the advice to link the docs. Usually, it will be
-```bash
-sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
-```
-
+3. Konsole uses the `Dotfiles` profile (`konsole/Dotfiles.profile`, Mononoki Nerd Font Mono 11), set as default by `scripts/konsole.sh`.
 
 ## TODO
 - Add default AWS profile to statusline

@@ -1,14 +1,6 @@
+# Completion
 
-# Enable Kubernetes completion
-if [ $commands[kubectl] ]; then
-  source <(kubectl completion zsh)
-fi
+zstyle ':completion:*' menu select       # Menu selection
+bindkey '^[[Z' reverse-menu-complete     # SHIFT + TAB for previous selection
 
-# Enable completion menu selection
-zstyle ':completion:*' menu select
-
-# Bind SHIFT + TAB for previous selection
-bindkey '^[[Z' reverse-menu-complete
-
-# Enable completion
 autoload -Uz compinit && compinit

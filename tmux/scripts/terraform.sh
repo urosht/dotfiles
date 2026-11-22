@@ -1,5 +1,7 @@
 #!/bin/bash
 
-if tf=$(terraform --version | head -n 1); then
-		echo "$tf "
+command -v terraform &> /dev/null || exit 0
+
+if tf=$(terraform --version 2>/dev/null | head -n 1); then
+    echo "$tf "
 fi
