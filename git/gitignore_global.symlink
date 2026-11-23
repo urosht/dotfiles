@@ -3,5 +3,4 @@
 .project
 .settings/
 .env
-
 **/.claude/.cc-writes/

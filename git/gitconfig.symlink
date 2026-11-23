@@ -1,18 +1,12 @@
 [user]
   name = Urosh Trifunovic
   email = 19859951+urosht@users.noreply.github.com
-  signingKey = ~/.ssh/personal_github
   AddKeysToAgent = yes
 [github]
   user = urosht
-	username = urosht
-[bitbucket]
-	user = trifuuro
+  username = urosht
 [credential]
-  helper = store
   helper = cache
-[includeIf "gitdir:~/code/adidas/"]
-  path = ~/code/adidas/.gitconfig
 [core]
   editor = nvim
   excludesfile = ~/.gitignore_global
@@ -26,6 +20,6 @@
   s = status --short
   ss = status
 [pull]
-	rebase = false
+  rebase = false
 [http]
-	postBuffer = 524288000
+  postBuffer = 524288000
