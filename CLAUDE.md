@@ -45,6 +45,7 @@ Kept intentionally minimal (no plugin manager):
 - `zsh/zprofile.symlink` - Login shell PATH (`~/.local/bin`, `~/go/bin`)
 - `zsh/zshrc.symlink` - Entry point that loads all `*.zsh` files
 - `zsh/aliases.zsh` - Shell aliases
+- `zsh/autosuggestions.zsh` - Fish-like inline history suggestions (CTRL + SPACE accepts)
 - `zsh/general.zsh` - Shell options and keybindings
 - `zsh/history.zsh` - History settings
 - `zsh/completion.zsh` - Completion

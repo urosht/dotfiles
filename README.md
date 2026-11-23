@@ -22,8 +22,9 @@ so the docker group and default shell take effect.
 3. Konsole uses the `Dotfiles` profile (`konsole/Dotfiles.profile`, Mononoki Nerd Font Mono 11), set as default by `scripts/konsole.sh`.
 
 ## TODO
-- Add default AWS profile to statusline
+- Add default AWS profile to statusline (none when it's not configured)
+- Add defaults for TF version and K8s context (none and none)
 - Add icons for k8s and tf instead of text in the status bar
-- Add git information to zsh prompt
 - Add keys to zoom panes in tmux
 - Add keys to resize panes in tmux
+- update master branch to only have readme with "my dotfiles" 

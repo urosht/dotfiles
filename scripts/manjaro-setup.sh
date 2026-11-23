@@ -18,6 +18,7 @@ echo -e "\n=== Installing repository packages ==="
 pamac install --no-confirm \
 	base-devel \
 	zsh \
+	zsh-autosuggestions \
 	neovim \
 	python-pynvim \
 	tmux \
