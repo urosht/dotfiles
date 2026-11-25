@@ -30,6 +30,7 @@ pamac install --no-confirm \
 	ttf-mononoki-nerd \
 	python \
 	python-pipx \
+	uv \
 	go \
 	kubectl \
 	helm \
