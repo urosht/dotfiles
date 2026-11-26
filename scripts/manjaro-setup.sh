@@ -29,7 +29,7 @@ pamac install --no-confirm \
 	fastfetch \
 	ttf-mononoki-nerd \
 	python \
-	python-pipx \
+	uv \
 	go \
 	kubectl \
 	helm \

@@ -1,4 +1,4 @@
 #!/usr/bin/env zsh
 
-# User binaries (claude, pipx) and Go binaries
+# User binaries (claude, uv tools) and Go binaries
 export PATH="$HOME/.local/bin:$HOME/go/bin:$PATH"
